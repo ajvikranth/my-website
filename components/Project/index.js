@@ -7,7 +7,7 @@ const Project = () => {
 
     return(
         <div id="project" className="">
-            <h3 className="text-3xl mt-16 py-1  dark:text-white">Portofolio</h3>
+            <h3 className="text-3xl mt-16 py-1  dark:text-white">Portfolio</h3>
           <div className="lg:flex gap-10  ">
             <div className=" text-center shadow-lg p-10 rounded-xl my-10  flex-1 dark:bg-white">
               <Image src={code} width={100} height={100} className="mx-auto content-center" />
