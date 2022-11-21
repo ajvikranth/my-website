@@ -5,7 +5,7 @@
     --tw-gradient-to: rgb(192 132 252 / 0);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
     --tw-gradient-to: #14b8a6;
-   
+    
     border: none;
     color: #fff;
     text-align: center;
@@ -42,4 +42,16 @@
   .button:hover:after {
     opacity: 1;
     right: 10px;
+  }
+
+  @media screen and (max-width: 420px)
+  {
+    .button
+    {
+      padding: 6px;
+      width: 100px;
+      margin-left: 10px;
+      font-size: 16px;
+    }
+
   }

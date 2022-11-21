@@ -56,27 +56,27 @@ const About = () => {
 
                         
                     </div>
-                    <div className="mt-2 flex">
+                    <div className="mt-2 md:flex">
                         
                     <div className="flex-1  items-center  pl-2 text-xl">
                         <span className="text-green-400">Skills/Tools (main) :~$</span><span> ls</span>
                         
                         <p className="text-green-400 ">Proficient With</p>
                         
-                         <div className=" mt-2 flex  mx-auto content-evenly">
-                         <div className="flex-1">
-                         <ul>
-                          <li>SQL</li>
-                          <li>Python </li>
-                          <li>Sklearn</li>
-                          <li>Pandas</li>
-                          <li>Numpy</li>
-                         </ul>
+                         <div className=" mt-2 md:flex  mx-auto content-evenly">
+                         <div className="md:flex-1">
+                            <ul>
+                                <li>SQL</li>
+                                <li>Python </li>
+                                <li>Sklearn</li>
+                                <li>Pandas</li>
+                                <li>Numpy</li>
+                            </ul>
                        
                          </div>
                          
-                         <div className="flex-1 ml-4">
-                         <ul>
+                         <div className="md:flex-1 md:mx-4">
+                         <ul >
                           <li>SQL Server Administration</li>
                           <li>Cloud - Azure, OCI</li>
                           <li>RDBMS - Oracle, MSSQL</li>
@@ -85,8 +85,8 @@ const About = () => {
                          </div>
                          </div>
                            <p className="text-green-400 mt-4 ">Exposed To</p>
-                         <div className=" mt-2 flex  mx-auto content-evenly">
-                         <div className="flex-1">
+                         <div className=" mt-2 md:flex  mx-auto content-evenly">
+                         <div className="md:flex-1">
                          <ul>
                           <li>Java</li>
                           <li>Javascript</li>
@@ -97,7 +97,7 @@ const About = () => {
                        
                          </div>
                          
-                         <div className="flex-1 ml-4">
+                         <div className="md:flex-1 md:mx-4">
                          <ul>
                          <li>Web developement</li>
                           <li>Computer Networking</li>

@@ -65,7 +65,7 @@ const Footer = () => {
                         </a>
                     </li>
                 </ul>
-                <h5 className=" text-black dark:text-white font-initial text-sm">&copy; 2022 - A J Vikranth. All Rights Reserved.</h5>
+                <h5 className=" text-black dark:text-white font-initial text-center text-sm">&copy; 2022 - A J Vikranth. All Rights Reserved.</h5>
             </div>
             
         </div>

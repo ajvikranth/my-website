@@ -30,14 +30,14 @@ export default function Home() {
         <meta name="description" content="Anton J Vikranth's Personal Data Science Portfolio Website build with Next.js and Tailwindcss" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=" bg-white px-10  md:px-20 lg:px-40  dark:bg-gray-900 ">
+      <main className=" bg-white  dark:bg-gray-900  px-6   md:px-20 lg:px-40 ">
       <section id='Home' className="min-h-screen">
       
       <Navbar darkMode={darkMode} handleClick={handleClick}/>
-          <div className="text-center p-10 py-10 lg:flex gap-10">
+          <div className="text-center sm:p-10 py-10 lg:flex gap-10">
             <div>
-              <div className="mx-auto bg-gradient-to-b from-purple-400 text- to-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-5 md:h-96 md:w-96">
-                <Image src={deved} layout="fill" objectFit="cover" alt='avatar' />
+              <div className="mx-auto bg-gradient-to-b from-purple-400 text- to-teal-500 rounded-full w-60 h-60 relative overflow-hidden mt-5 sm:h-96 sm:w-96">
+                <Image  src={deved} layout="fill" objectFit="cover" alt='avatar' />
               </div>
             
             </div>
