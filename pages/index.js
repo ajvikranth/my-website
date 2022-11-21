@@ -26,7 +26,7 @@ export default function Home() {
     <div className={styles.container} >
       <div className={darkMode ? "dark" : ""} >
       <Head>
-        <title>Vikranth's Website</title>
+        <title>Vikranth&apos;s Website</title>
         <meta name="description" content="Anton J Vikranth's Personal Data Science Portfolio Website build with Next.js and Tailwindcss" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -37,12 +37,12 @@ export default function Home() {
           <div className="text-center p-10 py-10 lg:flex gap-10">
             <div>
               <div className="mx-auto bg-gradient-to-b from-purple-400 text- to-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-5 md:h-96 md:w-96">
-                <Image src={deved} layout="fill" objectFit="cover" />
+                <Image src={deved} layout="fill" objectFit="cover" alt='avatar' />
               </div>
             
             </div>
             <div className=" mt-7  dark:text-white">
-              <h2 className="text-5xl py-2  font-medium  md:text-6xl "> Hi! I'm</h2>
+              <h2 className="text-5xl py-2  font-medium  md:text-6xl "> Hi! I&apos;m</h2>
               <h2 className="text-5xl py-2   ">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-500 font-semibold  md:text-6xl">Vikranth </span>
                 <span className={styles.hand}  >🤚</span>  
