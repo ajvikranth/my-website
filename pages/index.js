@@ -5,7 +5,6 @@ import About from '../components/About'
 import Project from '../components/Project'
 import styles from '../styles/Home.module.css'
 import React, { useState } from "react";
-import { BsFillMoonStarsFill } from "react-icons/bs";  
 import deved from "../public/dev-ed-wave.png";
 import Footer from '../components/Footer';
 
