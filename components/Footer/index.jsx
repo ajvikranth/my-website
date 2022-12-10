@@ -57,7 +57,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <li className=" text-black dark:text-white text-sm" title="Contact">
-                        <a href="/AJ_Resume.pdf"
+                        <a href="/Anton_J_Vikranth_resume.pdf"
                            alt="AJ's Resume"
                            rel="noopener noreferrer" 
                            className="font-bold ease-in-out duration-150 hover:text-teal-500">

@@ -27,7 +27,7 @@ const Navbar = ({darkMode, handleClick}) => {
         <li>
           <a
             className={style.button}
-            href="/AJ_Resume.pdf"
+            href="/Anton_J_Vikranth_resume.pdf"
             alt="AJ's Resume"
             rel="noopener noreferrer"
           >
