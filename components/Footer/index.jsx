@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="px-2">
             <div className="py-4 border-b border-b-gray-400 flex justify-between items-center max-w-6xl m-auto">
                 <h2 className="text-md text-black dark:text-white font-semibold">
-                    <a href="#Home">A J Vikranth</a>
+                    <a href="/#Home">A J Vikranth</a>
                 </h2>
                 <ul className="flex justify-center items-center gap-3  text-black dark:text-white">
                     <li className=" text-sm" title="LinkedIn">
@@ -47,12 +47,12 @@ const Footer = () => {
             <div className="py-8 flex flex-col gap-4 justify-between items-center max-w-6xl m-auto sm:flex-row sm:gap-0">
                 <ul className="flex justify-center items-center gap-4">
                     <li className=" text-black dark:text-white text-sm" title="Experiences">
-                        <a href="#about" className="font-bold ease-in-out duration-150 hover:text-teal-500">
+                        <a href="/#about" className="font-bold ease-in-out duration-150 hover:text-teal-500">
                             About me
                         </a>
                     </li>
                     <li className=" text-black dark:text-white text-sm" title="Projects">
-                        <a href="#project" className="font-bold ease-in-out duration-150 hover:text-teal-500">
+                        <a href="/#project" className="font-bold ease-in-out duration-150 hover:text-teal-500">
                             Projects
                         </a>
                     </li>

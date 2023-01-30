@@ -7,16 +7,16 @@ const Navbar = ({darkMode, handleClick}) => {
   
     return(
 
-      <nav className="py-10 mb-12 flex justify-between  dark:text-white ">
-      <h1 className="font-burtons text-xl md:text-2xl">AJ</h1>
+      <nav className="py-10  flex justify-between  dark:text-white ">
+      <h1 className="font-burtons text-xl md:text-2xl"><a href="/#home">AJ</a></h1>
  
       
       <ul className="flex items-center">
         <li>
-        <h1 className=" text-sm md:text-xl pl-2 transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-110 hover: duration-200 "><a href="#about">about me</a></h1>
+        <h1 className=" text-sm md:text-xl pl-2 transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-110 hover: duration-200 "><a href="/#about">about me</a></h1>
         </li>
         <li>
-        <h1 className=" text-sm md:text-xl px-4 transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-110 hover: duration-200 "><a href="#project">Projects</a></h1>
+        <h1 className=" text-sm md:text-xl px-4 transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-110 hover: duration-200 "><a href="/#project">Projects</a></h1>
         </li>
         <li>
           <BsFillMoonStarsFill

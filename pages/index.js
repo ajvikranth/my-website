@@ -70,7 +70,7 @@ export default function Home() {
           <section >
             <About/>
           
-          <Project  />
+          <Project/>
              
             
           </section>
