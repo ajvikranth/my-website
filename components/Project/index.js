@@ -1,6 +1,7 @@
 import code from "../../public/code.png";
 import Image from "next/image";
 import cars from "../../public/used_cars.jpg";
+import Link from "next/link";
 
 const Project = () => {
   
@@ -18,9 +19,7 @@ const Project = () => {
                     <Image className="rounded-t-lg" src={cars} alt="image of used car" />
                </Link>
                 <div class="p-5">
-                    <a href="/p1">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Used Car Price Predictor</h5>
-                    </a>
+                    
                     <Link href="/p1">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Used Car Price Predictor</h5>
                     </Link>

@@ -22,7 +22,6 @@ const Navbar = ({darkMode, handleClick}) => {
         </li>
         <li>
         <h1 className=" text-sm md:text-xl px-4 transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-110 hover: duration-200 ">
-          <a href="/#project">Projects</a>
           <Link href="/#project">Projects </Link>
           </h1>
         </li>
