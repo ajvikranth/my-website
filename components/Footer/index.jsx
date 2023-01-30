@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 // React Icons
 import { 
@@ -22,7 +23,7 @@ const Footer = () => {
         <div className="px-2">
             <div className="py-4 border-b border-b-gray-400 flex justify-between items-center max-w-6xl m-auto">
                 <h2 className="text-md text-black dark:text-white font-semibold">
-                    <a href="/#Home">A J Vikranth</a>
+                    <Link href="/#Home">A J Vikranth</Link>
                 </h2>
                 <ul className="flex justify-center items-center gap-3  text-black dark:text-white">
                     <li className=" text-sm" title="LinkedIn">
@@ -47,14 +48,14 @@ const Footer = () => {
             <div className="py-8 flex flex-col gap-4 justify-between items-center max-w-6xl m-auto sm:flex-row sm:gap-0">
                 <ul className="flex justify-center items-center gap-4">
                     <li className=" text-black dark:text-white text-sm" title="Experiences">
-                        <a href="/#about" className="font-bold ease-in-out duration-150 hover:text-teal-500">
+                        <Link href="/#about" className="font-bold ease-in-out duration-150 hover:text-teal-500">
                             About me
-                        </a>
+                        </Link>
                     </li>
                     <li className=" text-black dark:text-white text-sm" title="Projects">
-                        <a href="/#project" className="font-bold ease-in-out duration-150 hover:text-teal-500">
+                        <Link href="/#project" className="font-bold ease-in-out duration-150 hover:text-teal-500">
                             Projects
-                        </a>
+                        </Link>
                     </li>
                     <li className=" text-black dark:text-white text-sm" title="Contact">
                         <a href="/Anton_J_Vikranth_resume.pdf"

@@ -81,7 +81,7 @@ export default function About() {
       <p className='text-gray-800  dark:text-white my-10 text-xl text-justify'>
       As a data science enthusiast, I was captivated by the challenge of predicting the market price of used cars. 
       My solution was a random forest ML model, optimized using grid search and random search, which achieved a mean R2 score of 0.937,
-       explaining 93.7% of the variability in the target variable. I am proud of the highly accurate and reliable model I've created,
+       explaining 93.7% of the variability in the target variable. I am proud of the highly accurate and reliable model I&apos;ve created,
         and I am excited to share it with the world through my portfolio website. Hosting the model as a Flask API on an Oracle Cloud VPS
          makes it easily accessible and convenient for users. This project has been a valuable learning experience, honing my skills in 
          data science and machine learning. 
