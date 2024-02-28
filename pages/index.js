@@ -51,16 +51,16 @@ export default function Home() {
                 Data Science Enthusiast.
               </h3>
                 <p className="text-md py-5 leading-8 text-gray-800  dark:text-white max-w-xl mt-7 mx-auto md:text-xl">
-                A hobbyist programmer who is passionate about data science, at present working as a DBA at Infosys based in India
+                Navigating the realms of data science on a journey towards mastery, Currently pursuing Master&apos;s in Applied Data Science and Analytics at SRH Hochschule Heidelberg
                 </p>
                 <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 ">
-                  <a href="https://github.com/ajvikranth">
+                  <a title="github" href="https://github.com/ajvikranth">
                     <AiFillGithub className="transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-110 hover:fill-gray-300 duration-200" />
                   </a>
-                  <a href="https://www.linkedin.com/in/anton-j-vikranth/">
+                  <a title="linkedin" href="https://www.linkedin.com/in/anton-j-vikranth/">
                     <AiFillLinkedin  className="transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-110 hover:fill-gray-300 duration-200" />
                   </a>
-                  <a href="mailto:aj.vikranth@gmail.com">
+                  <a title="E-mail" href="mailto:aj.vikranth@gmail.com">
                     <AiFillMail className="transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-110 hover:fill-gray-300 duration-200" />
                   </a>
               </div> 

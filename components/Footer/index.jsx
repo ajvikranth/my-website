@@ -31,7 +31,7 @@ const Footer = () => {
                             <AiFillLinkedin />
                         </a>
                     </li>
-                    <li className=" text-sm" title="Codepen">
+                    <li className=" text-sm" title="E-mail">
                         <a href="mailto:aj.vikranth@gmail.com" className="ease-in-out duration-150 hover:text-teal-500">
                           <AiFillMail/>  
                         </a>
@@ -47,17 +47,17 @@ const Footer = () => {
 
             <div className="py-8 flex flex-col gap-4 justify-between items-center max-w-6xl m-auto sm:flex-row sm:gap-0">
                 <ul className="flex justify-center items-center gap-4">
-                    <li className=" text-black dark:text-white text-sm" title="Experiences">
+                    <li className=" text-black dark:text-white text-sm" >
                         <Link href="/#about" className="font-bold ease-in-out duration-150 hover:text-teal-500">
                             About me
                         </Link>
                     </li>
-                    <li className=" text-black dark:text-white text-sm" title="Projects">
+                    <li className=" text-black dark:text-white text-sm" >
                         <Link href="/#project" className="font-bold ease-in-out duration-150 hover:text-teal-500">
                             Projects
                         </Link>
                     </li>
-                    <li className=" text-black dark:text-white text-sm" title="Contact">
+                    <li className=" text-black dark:text-white text-sm" >
                         <a href="/Anton_J_Vikranth_resume.pdf"
                            alt="AJ's Resume"
                            rel="noopener noreferrer" 
@@ -66,7 +66,7 @@ const Footer = () => {
                         </a>
                     </li>
                 </ul>
-                <h5 className=" text-black dark:text-white font-initial text-center text-sm">&copy; 2022 - A J Vikranth. All Rights Reserved.</h5>
+                <h5 className=" text-black dark:text-white font-initial text-center text-sm">&copy; 2024 - A J Vikranth. All Rights Reserved.</h5>
             </div>
             
         </div>

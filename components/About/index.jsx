@@ -29,7 +29,7 @@ const About = () => {
                         
                         <p className="flex-1 typing items-center  pl-2 text-xl">
                         <span className="text-green-400">aboutVikranth (main) :~$</span>
-                         <span> Hello! Vikranth here. I&apos;m working as a DBA at Infosys. As an individual, I&apos;m curious and creative with lots of grit. I guess that is what attracted me to the discipline of data science. For me, my passion for data science lies on the path to three meaningful outcomes: discovery, insight, and innovation, and I want to use my knowledge and skills to gain practical exposure and understand the inner workings of this field. </span>
+                         <span> Hello! Vikranth here. As an individual, I&apos;m curious and creative with lots of grit. I guess that is what attracted me to the discipline of data science. For me, my passion for data science lies on the path to three meaningful outcomes: discovery, insight, and innovation, and I want to use my knowledge and skills to gain practical exposure and understand the inner workings of this field. </span>
                         
                         </p>
    
@@ -66,20 +66,18 @@ const About = () => {
                          <div className=" mt-2 md:flex  mx-auto content-evenly">
                          <div className="md:flex-1">
                             <ul>
-                                <li>SQL</li>
-                                <li>Python </li>
-                                <li>Sklearn</li>
-                                <li>Pandas</li>
-                                <li>Numpy</li>
+                                <li>Programming: Python, SQL</li>
+                                <li>Data Analytics: Machine Learning, NLP, Neural Networks</li>
+                                <li>Frameworks: Pandas, Scikit-learn, Numpy, PyTorch</li>
+                               
                             </ul>
                        
                          </div>
                          
                          <div className="md:flex-1 md:mx-4">
                          <ul >
-                          <li>SQL Server Administration</li>
-                          <li>Cloud - Azure, OCI</li>
-                          <li>RDBMS - Oracle, MSSQL</li>
+                          <li>Cloud - Azure, OCI, GCP</li>
+                          <li>Tools -  GitHub, Docker, Ansible, SQL Server</li>
                           <li>OS - Linux, Windows</li>
                          </ul>
                          </div>
@@ -88,10 +86,10 @@ const About = () => {
                          <div className=" mt-2 md:flex  mx-auto content-evenly">
                          <div className="md:flex-1">
                          <ul>
-                          <li>Java</li>
-                          <li>Javascript</li>
-                          <li>Flask</li>
-                          <li>Reactjs</li>
+                          <li>Programming: Java, Javascript</li>
+                          <li>Frameworks: Flask, Reactjs</li>
+                          <li>Tools: Hadoop, Apache-Spark</li>
+                     
                           
                          </ul>
                        
@@ -99,9 +97,8 @@ const About = () => {
                          
                          <div className="md:flex-1 md:mx-4">
                          <ul>
-                         <li>Web developement</li>
-                          <li>Computer Networking</li>
-                          <li>IT automation - Ansible</li>
+                         <li>Web Developement</li>
+                          <li>System Administration</li>
                          </ul>
                          </div>
                          </div>
