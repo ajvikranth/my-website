@@ -5,7 +5,8 @@ import About from '../components/About'
 import Project from '../components/Project'
 import styles from '../styles/Home.module.css'
 import React, { useState } from "react";
-import deved from "../public/dev-ed-wave.png";
+// import deved from "../public/dev-ed-wave.png";
+import deved from "../public/dp_nbg.png";
 import Footer from '../components/Footer';
 
 import {
